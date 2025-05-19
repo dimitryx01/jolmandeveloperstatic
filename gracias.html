@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pago en Proceso | Jolman Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --verde: hsla(173, 79.37%, 40.14%, 0.9);
+      --negro: #222;
+      --blanco: #fff;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background: var(--blanco);
+      color: var(--negro);
+      font-family: 'Montserrat', Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      background: var(--verde);
+      border-radius: 18px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+      padding: 2.5rem 1.5rem 2rem 1.5rem;
+      max-width: 400px;
+      width: 90vw;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.2rem;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0 0 0.5rem 0;
+      color: var(--blanco);
+      letter-spacing: 0.5px;
+    }
+    p {
+      font-size: 1.08rem;
+      color: var(--blanco);
+      margin: 0.2rem 0;
+      line-height: 1.6;
+    }
+    .volver-btn {
+      margin-top: 1.2rem;
+      background: var(--blanco);
+      color: var(--verde);
+      border: none;
+      border-radius: 8px;
+      padding: 0.9rem 2.2rem;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      transition: background 0.2s, color 0.2s, transform 0.1s;
+    }
+    .volver-btn:hover, .volver-btn:focus {
+      background: var(--verde);
+      color: var(--blanco);
+      outline: none;
+      transform: scale(1.04);
+    }
+    @media (max-width: 500px) {
+      .container {
+        padding: 1.5rem 0.5rem 1.2rem 0.5rem;
+        max-width: 98vw;
+      }
+      h1 {
+        font-size: 1.4rem;
+      }
+      .volver-btn {
+        font-size: 1rem;
+        padding: 0.7rem 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>¡Gracias por tu confianza!</h1>
+    <p>Estamos procesando tu pago. Pronto recibirás un correo electrónico por parte de <strong>PayuLatam</strong> con el estado de tu transacción.</p>
+    <p>Aprecio enormemente que hayas elegido mis servicios para desarrollar tu proyecto web. Tu visión es importante para mí, y estoy comprometido a entregarla con la más alta calidad y profesionalismo.</p>
+    <p>Mientras tanto, puedes contactarme si tienes cualquier pregunta sobre nuestro proyecto.</p>
+    <p>¡Estoy emocionado por comenzar a trabajar juntos!</p>
+    <a href="https://www.jolmandeveloper.com" class="volver-btn">Volver al inicio</a>
+  </div>
+</body>
+</html>
