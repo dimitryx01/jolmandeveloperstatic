@@ -1,1 +1,0 @@
-import{j as e}from"./index-BQomU00A.js";function s(){return e.jsxs("div",{className:"min-h-screen flex flex-col items-center justify-center",children:[e.jsx("h1",{className:"text-2xl font-bold mb-4",children:"¡Gracias por tu pago!"}),e.jsx("p",{children:"Tu transacción ha sido procesada. Pronto recibirás un correo de confirmación."})]})}export{s as default};
