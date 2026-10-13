@@ -181,7 +181,7 @@
           "title": "Funcionalidades y desarrollo específico",
           "items": [
             { "name": "Formularios avanzados y automatización de emails", "price": "Desde $100 USD", "description": "Creación de formularios complejos (multi-paso, condicionales, cálculo de presupuestos) con automatización de respuestas, notificaciones y conexión con CRM." },
-            { "name": "Integración de pasarela de pago", "price": "Desde $160 USD", "description": "Configuración de Stripe, PayPal, MercadoPago, PayU, Wompi u otras pasarelas en cualquier tipo de web o aplicación." },
+            { "name": "Integración de pasarela de pago", "price": "Desde $160 USD", "description": "Configuración de Stripe, PayPal, MercadoPago, Bold, Wompi u otras pasarelas en cualquier tipo de web o aplicación." },
             { "name": "Desarrollo de API REST", "price": "Desde $450 USD", "description": "Diseño e implementación de APIs para conectar servicios, aplicaciones móviles o paneles de gestión con tu plataforma." },
             { "name": "Panel de administración personalizado", "price": "Desde $850 USD", "description": "Dashboard a medida para gestionar datos, usuarios, pedidos o cualquier tipo de contenido sin depender de soluciones genéricas." },
             { "name": "Chatbot e integración de IA", "price": "Desde $450 USD", "description": "Implementación de asistentes virtuales o chatbots con IA integrada para atención al cliente, captación de leads o automatización de consultas frecuentes." },
@@ -252,25 +252,46 @@
   },
   "pagaOnline": {
     "title": "Realiza tu Pago",
-    "description": "¿Ya acordamos tu servicio? Paga fácil y seguro directamente desde aquí utilizando nuestra pasarela de pagos segura.",
+    "description": "¿Ya acordamos tu servicio? Puedes pagar directamente desde aquí a través de Bold, una plataforma de pagos segura.",
+    "currencyNote": "Pagos procesados por Bold. Introduces el monto en Pesos Colombianos (COP) dentro de la pasarela.",
     "payButton": "Realizar Pago",
-    "form": {
-      "title": "Formulario de Pago",
-      "description": "Completa los siguientes datos para procesar tu pago de forma segura a través de PayU Latam.",
-      "name": "Nombre completo",
-      "email": "Correo electrónico",
-      "amount": "Monto a pagar en Peso Colombiano(COP), sin puntos ni comas",
-      "comment": "Descripción o comentario (opcional)",
-      "cancel": "Cancelar",
-      "submit": "Procesar Pago"
-    },
+    "boldDescription": "Pago de servicios - Jolman Developer",
     "messages": {
-      "processing": "Procesando tu pago",
-      "redirect": "Serás redirigido a la pasarela de pagos en unos segundos...",
-      "incomplete": "Datos incompletos",
-      "requiredFields": "Por favor completa todos los campos requeridos",
       "error": "Error de procesamiento",
-      "tryAgain": "Hubo un problema al procesar tu solicitud. Inténtalo de nuevo."
+      "tryAgain": "No se pudo abrir la pasarela de pagos. Inténtalo de nuevo."
+    }
+  },
+  "paymentResponse": {
+    "orderLabel": "Referencia",
+    "backHome": "Volver al inicio",
+    "emailNote": "Bold te enviará un correo con el resultado definitivo de la transacción.",
+    "unknown": {
+      "title": "Hemos recibido tu regreso",
+      "description": "No pudimos determinar el estado de tu pago desde esta página. Revisa el correo que te envía Bold con el resultado, o escríbeme si tienes dudas."
+    },
+    "approved": {
+      "title": "¡Gracias por tu pago!",
+      "description": "Tu pago fue aprobado."
+    },
+    "rejected": {
+      "title": "Pago rechazado",
+      "description": "Tu pago fue rechazado y no se realizó ningún cobro. Puedes volver a intentarlo con otro medio de pago."
+    },
+    "failed": {
+      "title": "El pago falló",
+      "description": "Ocurrió un error al procesar tu pago. Puedes volver a intentarlo o contactarme si el problema continúa."
+    },
+    "voided": {
+      "title": "Pago anulado",
+      "description": "La transacción fue anulada. Si crees que es un error, contáctame."
+    },
+    "processing": {
+      "title": "Pago en proceso",
+      "description": "Tu pago aún se está procesando. Recibirás el resultado por correo electrónico."
+    },
+    "pending": {
+      "title": "Pago pendiente",
+      "description": "Tu pago está pendiente de confirmación por parte de tu banco. Recibirás el resultado por correo electrónico."
     }
   },
   "contact": {
@@ -299,7 +320,7 @@
   },
   "thanks": {
     "title": "¡Gracias por tu confianza!",
-    "description": "Estamos procesando tu pago. Pronto recibirás un correo electrónico por parte de PayULatam con el estado de tu transacción.",
+    "description": "Estamos procesando tu pago. Si acabas de realizar un pago, pronto recibirás un correo electrónico por parte de Bold con el estado de tu transacción.",
     "appreciation": "Aprecio enormemente que hayas elegido mis servicios para desarrollar tu proyecto web. Tu visión es importante para mí, y estoy comprometido a entregarla con la más alta calidad y profesionalismo.",
     "contact": "Mientras tanto, puedes contactarme si tienes cualquier pregunta sobre nuestro proyecto.",
     "excited": "¡Estoy emocionado por comenzar a trabajar juntos!",
@@ -347,7 +368,7 @@
       "Recopilación de datos",
       "Este sitio web recoge datos de los usuarios de las siguientes formas:",
       "• Formulario de contacto: Para consultas, solicitudes o comunicación directa.",
-      "• Formulario de pago online: Para la gestión de pagos y abonos a través de la pasarela de pagos PayU.",
+      "• Formulario de pago online: Para la gestión de pagos y abonos a través de la pasarela de pagos Bold.",
       "Principios aplicados al tratamiento de datos personales",
       "• Licitud, lealtad y transparencia: Siempre se requerirá el consentimiento del usuario para el tratamiento de sus datos personales, informando de forma clara la finalidad.",
       "• Minimización de datos: Solo se solicitarán los datos estrictamente necesarios para cada caso.",

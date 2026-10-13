@@ -181,7 +181,7 @@
           "title": "Features & custom development",
           "items": [
             { "name": "Advanced forms & email automation", "price": "From $100 USD", "description": "Complex form creation (multi-step, conditional, budget calculators) with automated responses, notifications and CRM integration." },
-            { "name": "Payment gateway integration", "price": "From $160 USD", "description": "Setup of Stripe, PayPal, MercadoPago, PayU, Wompi or other gateways on any type of website or application." },
+            { "name": "Payment gateway integration", "price": "From $160 USD", "description": "Setup of Stripe, PayPal, MercadoPago, Bold, Wompi or other gateways on any type of website or application." },
             { "name": "REST API development", "price": "From $450 USD", "description": "Design and implementation of APIs to connect services, mobile apps or management panels with your platform." },
             { "name": "Custom admin panel", "price": "From $850 USD", "description": "Tailored dashboard to manage data, users, orders or any type of content without relying on generic solutions." },
             { "name": "Chatbot & AI integration", "price": "From $450 USD", "description": "Implementation of virtual assistants or AI-powered chatbots for customer support, lead capture or automation of frequent queries." },
@@ -252,25 +252,46 @@
   },
   "pagaOnline": {
     "title": "Make Your Payment",
-    "description": "Have we already agreed on your service? Pay easily and securely directly from here using our secure payment gateway.",
+    "description": "Have we already agreed on your service? You can pay directly from here through Bold, a secure payment platform.",
+    "currencyNote": "Payments processed by Bold. You enter the amount in Colombian Pesos (COP) inside the payment gateway.",
     "payButton": "Make Payment",
-    "form": {
-      "title": "Payment Form",
-      "description": "Complete the following information to securely process your payment through PayU Latam.",
-      "name": "Full name",
-      "email": "Email address",
-      "amount": "Amount to pay in Colombian Pesos (COP), without periods or commas.",
-      "comment": "Description or comment (optional)",
-      "cancel": "Cancel",
-      "submit": "Process Payment"
-    },
+    "boldDescription": "Services payment - Jolman Developer",
     "messages": {
-      "processing": "Processing your payment",
-      "redirect": "You will be redirected to the payment gateway in a few seconds...",
-      "incomplete": "Incomplete data",
-      "requiredFields": "Please complete all required fields",
       "error": "Processing error",
-      "tryAgain": "There was a problem processing your request. Please try again."
+      "tryAgain": "The payment gateway could not be opened. Please try again."
+    }
+  },
+  "paymentResponse": {
+    "orderLabel": "Reference",
+    "backHome": "Back to home",
+    "emailNote": "Bold will email you the final result of the transaction.",
+    "unknown": {
+      "title": "We received your return",
+      "description": "We could not determine your payment status from this page. Check the email Bold sends you with the result, or contact me if you have any questions."
+    },
+    "approved": {
+      "title": "Thank you for your payment!",
+      "description": "Your payment was approved."
+    },
+    "rejected": {
+      "title": "Payment rejected",
+      "description": "Your payment was rejected and you have not been charged. You can try again with another payment method."
+    },
+    "failed": {
+      "title": "Payment failed",
+      "description": "An error occurred while processing your payment. You can try again or contact me if the problem continues."
+    },
+    "voided": {
+      "title": "Payment voided",
+      "description": "The transaction was voided. If you think this is a mistake, please contact me."
+    },
+    "processing": {
+      "title": "Payment processing",
+      "description": "Your payment is still being processed. You will receive the result by email."
+    },
+    "pending": {
+      "title": "Payment pending",
+      "description": "Your payment is pending confirmation from your bank. You will receive the result by email."
     }
   },
   "contact": {
@@ -299,7 +320,7 @@
   },
   "thanks": {
     "title": "Thank you for your trust!",
-    "description": "We are processing your payment. You will soon receive an email from PayULatam with the status of your transaction.",
+    "description": "We are processing your payment. If you just made a payment, you will soon receive an email from Bold with the status of your transaction.",
     "appreciation": "I greatly appreciate that you have chosen my services to develop your web project. Your vision is important to me, and I am committed to delivering it with the highest quality and professionalism.",
     "contact": "In the meantime, you can contact me if you have any questions about our project.",
     "excited": "I am excited to start working together!",
@@ -347,7 +368,7 @@
       "Data Collection",
       "This website collects user data in the following ways:",
       "• Contact form: For inquiries, requests, or direct communication.",
-      "• Online payment form: For payment management processing via the PayU gateway.",
+      "• Online payment form: For payment management processing via the Bold gateway.",
       "Principles applied to personal data processing",
       "• Lawfulness, loyalty, and transparency: We will always request the user's consent for the processing of their personal data, clearly indicating the intent.",
       "• Data minimization: We will only request the data strictly necessary.",
