@@ -1,20 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml">
-    <url>
-        <loc>https://jolmandeveloper.com/es</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es"/>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://jolmandeveloper.com/en</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es"/>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://jolmandeveloper.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/es/servicios/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/servicios/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/servicios/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/es/tarifas/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/tarifas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/tarifas/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/es/servicios/paginas-web/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/servicios/paginas-web/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/services/websites/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/servicios/paginas-web/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/es/servicios/tiendas-online/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/servicios/tiendas-online/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/services/online-stores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/servicios/tiendas-online/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/es/servicios/desarrollo-a-medida/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/servicios/desarrollo-a-medida/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/services/custom-development/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/servicios/desarrollo-a-medida/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/es/servicios/kommo-crm/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/servicios/kommo-crm/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/services/kommo-crm/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/servicios/kommo-crm/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/es/servicios/automatizacion-n8n-ia/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/servicios/automatizacion-n8n-ia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/services/automation-n8n-ai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/servicios/automatizacion-n8n-ia/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/es/servicios/mantenimiento-hosting/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/servicios/mantenimiento-hosting/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/services/maintenance-hosting/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/servicios/mantenimiento-hosting/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/en/services/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/servicios/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/servicios/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/en/pricing/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/tarifas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/tarifas/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/en/services/websites/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/servicios/paginas-web/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/services/websites/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/servicios/paginas-web/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/en/services/online-stores/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/servicios/tiendas-online/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/services/online-stores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/servicios/tiendas-online/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/en/services/custom-development/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/servicios/desarrollo-a-medida/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/services/custom-development/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/servicios/desarrollo-a-medida/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/en/services/kommo-crm/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/servicios/kommo-crm/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/services/kommo-crm/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/servicios/kommo-crm/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/en/services/automation-n8n-ai/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/servicios/automatizacion-n8n-ia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/services/automation-n8n-ai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/servicios/automatizacion-n8n-ia/"/>
+  </url>
+  <url>
+    <loc>https://jolmandeveloper.com/en/services/maintenance-hosting/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jolmandeveloper.com/es/servicios/mantenimiento-hosting/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jolmandeveloper.com/en/services/maintenance-hosting/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jolmandeveloper.com/es/servicios/mantenimiento-hosting/"/>
+  </url>
 </urlset>

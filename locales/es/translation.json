@@ -5,12 +5,13 @@
     "projects": "Proyectos",
     "contact": "Contacto",
     "changeTheme": "Cambiar tema",
-    "menu": "Menú"
+    "menu": "Menú",
+    "services": "Servicios"
   },
   "hero": {
     "hello": "Hola, soy",
-    "role": "Diseñador & Desarrollador Web",
-    "description": "Creo experiencias digitales atractivas y funcionales con un enfoque minimalista y centrado en el usuario.",
+    "role": "Diseñador y desarrollador web freelance",
+    "description": "Creo webs a medida y en WordPress, tiendas online, apps y automatizaciones con Kommo CRM y n8n para particulares y empresas en Colombia y en el resto del mundo. Cuéntame tu proyecto y te preparo un presupuesto gratuito y sin compromiso.",
     "contactMe": "Contáctame",
     "downloadCV": "Descargar CV",
     "learnMore": "Saber más",
@@ -103,7 +104,34 @@
       "title": "Automatización IA + CRM - Induscom - Colombia",
       "description": "Flujo de automatización en n8n con un agente de IA (ChatGPT) que atiende a los clientes, recopila datos clave (como el número de motor) y los clasifica automáticamente en el CRM Kommo.",
       "fullDescription": "Proyecto de automatización desarrollado para Induscom Colombia con el objetivo de optimizar la atención al cliente y el registro de información comercial. Se diseñó un flujo en n8n que conecta los canales de mensajería de la empresa con un agente de inteligencia artificial basado en ChatGPT, capaz de responder automáticamente a los clientes, entender sus consultas y recolectar datos relevantes para el negocio (como el número de motor de la pieza solicitada, tipo de repuesto y otros datos técnicos necesarios para dar seguimiento). Toda esta información se clasifica y registra de forma automática en el CRM Kommo, organizando cada conversación y sus datos asociados en el embudo de ventas correspondiente. Esto permite al equipo comercial de Induscom tener un historial estructurado de cada cliente sin intervención manual, reduciendo tiempos de respuesta y mejorando la productividad del proceso de ventas."
-    }
+    },
+    "project12": {
+      "title": "Feel Accessibility - España",
+      "description": "Plugin gratuito de WordPress que añade una barra de accesibilidad: cada visitante ajusta el texto, el contraste, la lectura y el movimiento. Publicado en el directorio oficial de WordPress.org.",
+      "fullDescription": "Plugin gratuito de WordPress que desarrollé para Feel Hospitality Advisory, consultora especializada en accesibilidad turística. Añade un botón de accesibilidad en la esquina inferior derecha de la web (también se abre con Alt + Mayús + A) y un panel de preferencias con el que cada visitante adapta el sitio a su manera de leer y navegar: texto (ampliación hasta el 150 %, espaciado entre letras, palabras y líneas, tipografía legible o pensada para dislexia), color y contraste (alto contraste oscuro o claro, escala de grises), lectura y contenido (resaltar enlaces y títulos, guía de lectura, ocultar imágenes, lectura en voz alta) y movimiento y navegación (pausar animaciones y vídeos, cursor grande y foco de teclado muy visible). Está disponible en español, inglés, catalán, gallego y euskera, sigue el idioma de la página y es compatible con Polylang. Las preferencias se guardan solo en el dispositivo del visitante. Como indica su propia ficha, no hace accesible un sitio por sí solo ni garantiza el cumplimiento de las WCAG: es un complemento de una web bien construida, no un sustituto. Se ha probado con axe-core y navegadores automatizados, todavía no con lectores de pantalla en dispositivos reales. Está publicado en el directorio oficial de WordPress.org."
+    },
+    "viewMore": "Ver más proyectos",
+    "accessibilityTag": "Accesibilidad",
+    "categories": {
+      "custom": {
+        "title": "Plataformas y desarrollo a medida",
+        "description": "Plataformas, paneles de administración y plugins desarrollados a medida."
+      },
+      "automation": {
+        "title": "Automatización e IA",
+        "description": "Flujos con n8n, agentes de IA y el CRM Kommo."
+      },
+      "corporate": {
+        "title": "Webs corporativas y landings",
+        "description": "Sitios web de empresas y entidades, principalmente en WordPress."
+      },
+      "stores": {
+        "title": "Tiendas online",
+        "description": "Tiendas online sobre Shopify en las que colaboro como desarrollador dentro de un equipo."
+      }
+    },
+    "automationTag": "Automatización",
+    "aiTag": "IA / ChatGPT"
   },
   "contratacion": {
     "title": "Contratación",
@@ -150,42 +178,109 @@
           "emoji": "🌐",
           "title": "Sitios web",
           "items": [
-            { "name": "Landing page", "price": "Desde $200 USD", "description": "Página de una sola sección enfocada a conversión: presentación de producto, captación de leads o promoción de un evento. Diseño limpio, carga rápida y formulario de contacto incluido." },
-            { "name": "Página web con CMS (WordPress, etc.)", "price": "Desde $380 USD", "description": "Desarrollo basado en plantilla adaptada a tu diseño. Incluye plugins de SEO, cookies, caché y formularios, importación de contenido, configuración multi-idioma y todos los ajustes necesarios." },
-            { "name": "Rediseño o migración de web existente", "price": "Desde $320 USD", "description": "Actualización visual o técnica de un sitio ya existente, o migración entre plataformas o servidores manteniendo el contenido, SEO y funcionalidades." },
-            { "name": "Tienda online con CMS (WooCommerce)", "price": "Desde $850 USD", "description": "Configuración completa de productos, variaciones, descuentos, pasarelas de pago y envíos. Puede incluir integración con ERP o APIs de agencias de transporte." },
-            { "name": "Página web a medida", "price": "Desde $1.600 USD", "description": "Desarrollo con total libertad de diseño y funcionalidades: portales, paneles de administración, intranets, etc. Stack habitual MERN, aunque me adapto. Multi-idioma sin coste adicional. Compatible con WCAG AA." },
-            { "name": "App híbrida para iOS y Android", "price": "Desde $2.500 USD", "description": "Desarrolladas con React Native. Incluye API REST y panel de administración. Fácil de mantener y compatible con todos los dispositivos." }
+            {
+              "name": "Landing page",
+              "price": "Desde $200 USD",
+              "description": "Página de una sola sección enfocada a conversión: presentación de producto, captación de leads o promoción de un evento. Diseño limpio, carga rápida y formulario de contacto incluido."
+            },
+            {
+              "name": "Página web con CMS (WordPress, etc.)",
+              "price": "Desde $380 USD",
+              "description": "Desarrollo basado en plantilla adaptada a tu diseño. Incluye plugins de SEO, cookies, caché y formularios, importación de contenido, configuración multi-idioma y todos los ajustes necesarios."
+            },
+            {
+              "name": "Rediseño o migración de web existente",
+              "price": "Desde $320 USD",
+              "description": "Actualización visual o técnica de un sitio ya existente, o migración entre plataformas o servidores manteniendo el contenido, SEO y funcionalidades."
+            },
+            {
+              "name": "Tienda online con CMS (WooCommerce)",
+              "price": "Desde $850 USD",
+              "description": "Configuración completa de productos, variaciones, descuentos, pasarelas de pago y envíos. Puede incluir integración con TPV, ERP o APIs de agencias de transporte."
+            },
+            {
+              "name": "Página web a medida",
+              "price": "Desde $1.600 USD",
+              "description": "Desarrollo con total libertad de diseño y funcionalidades: portales, paneles de administración, intranets, etc. Stack habitual MERN, aunque me adapto. Multi-idioma sin coste adicional. Compatible con WCAG AA."
+            },
+            {
+              "name": "App híbrida para iOS y Android",
+              "price": "Desde $2.500 USD",
+              "description": "Desarrolladas con React Native. Incluye API REST y panel de administración. Fácil de mantener y compatible con todos los dispositivos."
+            }
           ]
         },
         {
-          "emoji": "🛠️ ",
+          "emoji": "🛠️",
           "title": "Optimización y rendimiento",
           "items": [
-            { "name": "Auditoría web completa", "price": "Desde $100 USD", "description": "Análisis técnico de velocidad, SEO on-page, seguridad, accesibilidad y experiencia de usuario. Entrega de informe detallado con recomendaciones priorizadas." },
-            { "name": "Optimización de velocidad y Core Web Vitals", "price": "Desde $130 USD", "description": "Mejora de los indicadores de rendimiento de Google: LCP, FID, CLS. Optimización de imágenes, caché, minificación y configuración de servidor." },
-            { "name": "Auditoría y refactorización de código", "price": "Desde $220 USD", "description": "Revisión de código existente para detectar errores, vulnerabilidades, deuda técnica o problemas de rendimiento. Incluye propuesta de mejoras." }
+            {
+              "name": "Auditoría web completa",
+              "price": "Desde $100 USD",
+              "description": "Análisis técnico de velocidad, SEO on-page, seguridad, accesibilidad y experiencia de usuario. Entrega de informe detallado con recomendaciones priorizadas."
+            },
+            {
+              "name": "Optimización de velocidad y Core Web Vitals",
+              "price": "Desde $130 USD",
+              "description": "Mejora de los indicadores de rendimiento de Google: LCP, INP, CLS. Optimización de imágenes, caché, minificación y configuración de servidor."
+            },
+            {
+              "name": "Auditoría y refactorización de código",
+              "price": "Desde $220 USD",
+              "description": "Revisión de código existente para detectar errores, vulnerabilidades, deuda técnica o problemas de rendimiento. Incluye propuesta de mejoras."
+            }
           ]
         },
         {
           "emoji": "📈",
-          "title": "SEO y analítica",
+          "title": "Analítica y seguimiento",
           "items": [
-            { "name": "SEO técnico", "price": "Desde $220 USD", "description": "Optimización técnica del sitio para buscadores: estructura de URLs, metadatos, schema markup, sitemap, robots.txt, velocidad y compatibilidad móvil." },
-            { "name": "Configuración de Google Analytics y Tag Manager", "price": "Desde $80 USD", "description": "Instalación y configuración de seguimiento de eventos, conversiones y objetivos. Incluye verificación de datos y panel básico de informes." },
-            { "name": "Integración de píxeles y seguimiento publicitario", "price": "Desde $80 USD", "description": "Configuración de píxeles de Meta Ads, Google Ads u otras plataformas para seguimiento de campañas y remarketing." }
+            {
+              "name": "Configuración de Google Analytics y Tag Manager",
+              "price": "Desde $80 USD",
+              "description": "Instalación y configuración de seguimiento de eventos, conversiones y objetivos. Incluye verificación de datos y panel básico de informes."
+            },
+            {
+              "name": "Integración de píxeles y seguimiento publicitario",
+              "price": "Desde $80 USD",
+              "description": "Configuración de píxeles de Meta Ads, Google Ads u otras plataformas para seguimiento de campañas y remarketing."
+            }
           ]
         },
         {
-          "emoji": "⚙️ ",
+          "emoji": "⚙️",
           "title": "Funcionalidades y desarrollo específico",
           "items": [
-            { "name": "Formularios avanzados y automatización de emails", "price": "Desde $100 USD", "description": "Creación de formularios complejos (multi-paso, condicionales, cálculo de presupuestos) con automatización de respuestas, notificaciones y conexión con CRM." },
-            { "name": "Integración de pasarela de pago", "price": "Desde $160 USD", "description": "Configuración de Stripe, PayPal, MercadoPago, Bold, Wompi u otras pasarelas en cualquier tipo de web o aplicación." },
-            { "name": "Desarrollo de API REST", "price": "Desde $450 USD", "description": "Diseño e implementación de APIs para conectar servicios, aplicaciones móviles o paneles de gestión con tu plataforma." },
-            { "name": "Panel de administración personalizado", "price": "Desde $850 USD", "description": "Dashboard a medida para gestionar datos, usuarios, pedidos o cualquier tipo de contenido sin depender de soluciones genéricas." },
-            { "name": "Chatbot e integración de IA", "price": "Desde $450 USD", "description": "Implementación de asistentes virtuales o chatbots con IA integrada para atención al cliente, captación de leads o automatización de consultas frecuentes." },
-            { "name": "Automatizaciones e integraciones entre sistemas", "price": "Desde $320 USD", "description": "Conexión de herramientas y plataformas mediante APIs, webhooks o herramientas como n8n o Make. Automatización de procesos repetitivos para ahorrar tiempo." }
+            {
+              "name": "Formularios avanzados y automatización de emails",
+              "price": "Desde $100 USD",
+              "description": "Creación de formularios complejos (multi-paso, condicionales, cálculo de presupuestos) con automatización de respuestas, notificaciones y conexión con CRM."
+            },
+            {
+              "name": "Integración de pasarela de pago",
+              "price": "Desde $160 USD",
+              "description": "Configuración de Stripe, PayPal, Redsys u otras pasarelas en cualquier tipo de web o aplicación."
+            },
+            {
+              "name": "Desarrollo de API REST",
+              "price": "Desde $450 USD",
+              "description": "Diseño e implementación de APIs para conectar servicios, aplicaciones móviles o paneles de gestión con tu plataforma."
+            },
+            {
+              "name": "Panel de administración personalizado",
+              "price": "Desde $850 USD",
+              "description": "Dashboard a medida para gestionar datos, usuarios, pedidos o cualquier tipo de contenido sin depender de soluciones genéricas."
+            },
+            {
+              "name": "Chatbot e integración de IA",
+              "price": "Desde $450 USD",
+              "description": "Implementación de asistentes virtuales o chatbots con IA integrada para atención al cliente, captación de leads o automatización de consultas frecuentes."
+            },
+            {
+              "name": "Automatizaciones e integraciones entre sistemas",
+              "price": "Desde $320 USD",
+              "description": "Conexión de herramientas y plataformas mediante APIs, webhooks o herramientas como n8n o Make. Automatización de procesos repetitivos para ahorrar tiempo."
+            }
           ]
         },
         {
@@ -193,43 +288,109 @@
           "title": "Kommo CRM — Partner Oficial Certificado",
           "description": "Soy partner oficial certificado de Kommo, el CRM conversacional líder para equipos de ventas. Ayudo a empresas a implementar, configurar y sacar el máximo partido a su CRM desde el primer día.",
           "items": [
-            { "name": "Implementación de Kommo CRM", "price": "Desde $280 USD", "description": "Configuración completa de la cuenta: pipeline de ventas, etapas, campos personalizados, usuarios y permisos. Incluye formación básica al equipo." },
-            { "name": "Integración de canales de mensajería", "price": "Desde $160 USD", "description": "Conexión de WhatsApp Business, Instagram, Facebook Messenger, Telegram u otros canales directamente en Kommo para centralizar todas las conversaciones en un solo lugar." },
-            { "name": "Automatización de ventas y seguimiento", "price": "Desde $220 USD", "description": "Configuración de robots y triggers automáticos: mensajes de bienvenida, seguimientos programados, cambios de etapa automáticos y notificaciones al equipo según el comportamiento del cliente." },
-            { "name": "Integración de Kommo con sistemas externos", "price": "Desde $320 USD", "description": "Conexión de Kommo con tu web, tienda online, formularios, pasarelas de pago, ERP u otras herramientas mediante API o webhooks. Los datos fluyen solos sin intervención manual." },
-            { "name": "Chatbot conversacional en Kommo", "price": "Desde $450 USD", "description": "Diseño e implementación de un bot de ventas o atención al cliente dentro de Kommo: cualificación automática de leads, respuestas a preguntas frecuentes y derivación al agente adecuado." },
-            { "name": "Auditoría y optimización de Kommo existente", "price": "Desde $130 USD", "description": "Revisión de una cuenta de Kommo ya en uso para identificar cuellos de botella, automatizaciones mal configuradas y oportunidades de mejora. Entrega de informe con recomendaciones." },
-            { "name": "Formación y consultoría Kommo", "price": "$30 USD/hora", "description": "Sesiones de formación para equipos comerciales o de atención al cliente, resolución de dudas y asesoramiento estratégico sobre el uso del CRM." }
+            {
+              "name": "Implementación de Kommo CRM",
+              "price": "Desde $280 USD",
+              "description": "Configuración completa de la cuenta: pipeline de ventas, etapas, campos personalizados, usuarios y permisos. Incluye formación básica al equipo."
+            },
+            {
+              "name": "Integración de canales de mensajería",
+              "price": "Desde $160 USD",
+              "description": "Conexión de WhatsApp Business, Instagram, Facebook Messenger, Telegram u otros canales directamente en Kommo para centralizar todas las conversaciones en un solo lugar."
+            },
+            {
+              "name": "Automatización de ventas y seguimiento",
+              "price": "Desde $220 USD",
+              "description": "Configuración de robots y triggers automáticos: mensajes de bienvenida, seguimientos programados, cambios de etapa automáticos y notificaciones al equipo según el comportamiento del cliente."
+            },
+            {
+              "name": "Integración de Kommo con sistemas externos",
+              "price": "Desde $320 USD",
+              "description": "Conexión de Kommo con tu web, tienda online, formularios, pasarelas de pago, ERP u otras herramientas mediante API o webhooks. Los datos fluyen solos sin intervención manual."
+            },
+            {
+              "name": "Chatbot conversacional en Kommo",
+              "price": "Desde $450 USD",
+              "description": "Diseño e implementación de un bot de ventas o atención al cliente dentro de Kommo: cualificación automática de leads, respuestas a preguntas frecuentes y derivación al agente adecuado."
+            },
+            {
+              "name": "Auditoría y optimización de Kommo existente",
+              "price": "Desde $130 USD",
+              "description": "Revisión de una cuenta de Kommo ya en uso para identificar cuellos de botella, automatizaciones mal configuradas y oportunidades de mejora. Entrega de informe con recomendaciones."
+            },
+            {
+              "name": "Formación y consultoría Kommo",
+              "price": "$30 USD/hora",
+              "description": "Sesiones de formación para equipos comerciales o de atención al cliente, resolución de dudas y asesoramiento estratégico sobre el uso del CRM."
+            }
           ]
         },
         {
-          "emoji": "☁️ ",
+          "emoji": "☁️",
           "title": "Infraestructura y hosting",
           "items": [
-            { "name": "Alojamiento en VPS propio + entorno de staging", "price": "Desde $45 USD/mes", "description": "Despliegue en servidor VPS privado con NGINX, SSL, backups automáticos y entorno de staging para probar cambios antes de publicar. Sin recursos compartidos." },
-            { "name": "Migración de hosting", "price": "Desde $80 USD", "description": "Traslado de web, base de datos y configuraciones a un nuevo servidor sin tiempo de inactividad y sin pérdida de datos." },
-            { "name": "Configuración de servidor y DevOps básico", "price": "Desde $160 USD", "description": "Configuración inicial de VPS: dominio, SSL, servidor web, despliegue automático desde GitHub y monitorización básica." }
+            {
+              "name": "Alojamiento en VPS propio + entorno de staging",
+              "price": "Desde $45 USD/mes",
+              "description": "Despliegue en servidor VPS privado con NGINX, SSL, backups automáticos y entorno de staging para probar cambios antes de publicar. Sin recursos compartidos."
+            },
+            {
+              "name": "Migración de hosting",
+              "price": "Desde $80 USD",
+              "description": "Traslado de web, base de datos y configuraciones a un nuevo servidor sin tiempo de inactividad y sin pérdida de datos."
+            },
+            {
+              "name": "Configuración de servidor y DevOps básico",
+              "price": "Desde $160 USD",
+              "description": "Configuración inicial de VPS: dominio, SSL, servidor web, despliegue automático desde GitHub y monitorización básica."
+            }
           ]
         },
         {
           "emoji": "🔄",
           "title": "Mantenimiento y soporte",
           "items": [
-            { "name": "Mantenimiento y soporte mensual", "price": "Desde $55 USD/mes", "description": "Actualizaciones de CMS y plugins, copias de seguridad, monitorización, pequeños cambios de contenido y soporte técnico prioritario." },
-            { "name": "Soporte puntual por horas", "price": "$20 USD/hora", "description": "Para tareas concretas, corrección de errores, pequeños cambios o consultas técnicas sin necesidad de un contrato de mantenimiento." },
-            { "name": "Consultoría tecnológica", "price": "$30 USD/hora", "description": "Asesoramiento en arquitectura, elección de tecnologías, revisión de código o planificación de proyectos." }
+            {
+              "name": "Mantenimiento y soporte mensual",
+              "price": "Desde $55 USD/mes",
+              "description": "Actualizaciones de CMS y plugins, copias de seguridad, monitorización, pequeños cambios de contenido y soporte técnico prioritario."
+            },
+            {
+              "name": "Soporte puntual por horas",
+              "price": "$20 USD/hora",
+              "description": "Para tareas concretas, corrección de errores, pequeños cambios o consultas técnicas sin necesidad de un contrato de mantenimiento."
+            },
+            {
+              "name": "Consultoría tecnológica",
+              "price": "$30 USD/hora",
+              "description": "Asesoramiento en arquitectura, elección de tecnologías, revisión de código o planificación de proyectos."
+            }
           ]
         }
       ],
       "aclaraciones": {
         "title": "Aclaraciones",
         "list": [
-          { "title": "Hosting:", "content": "Salvo en el servicio de VPS propio, el alojamiento es responsabilidad del cliente." },
-          { "title": "Presupuesto personalizado:", "content": "Los precios indicados son orientativos en USD. Cada proyecto se presupuesta individualmente según su alcance real." },
-          { "title": "Otros proyectos:", "content": "He trabajado en desarrollos con IA, bots, IoT y proyectos a medida muy diversos — si tienes algo en mente, consúltame." }
+          {
+            "title": "Hosting:",
+            "content": "Salvo en el servicio de VPS propio, el alojamiento es responsabilidad del cliente."
+          },
+          {
+            "title": "IVA:",
+            "content": "Todos los precios están en dólares estadounidenses (USD) y no incluyen el IVA colombiano."
+          },
+          {
+            "title": "Presupuesto personalizado:",
+            "content": "Los precios indicados son orientativos en USD. Cada proyecto se presupuesta individualmente según su alcance real."
+          },
+          {
+            "title": "Otros proyectos:",
+            "content": "He trabajado en desarrollos con IA, bots, IoT y proyectos a medida muy diversos — si tienes algo en mente, consúltame."
+          }
         ]
       }
-    }
+    },
+    "viewAll": "Ver todas las tarifas"
   },
   "partnersSection": {
     "title": "Automatización e Integraciones",
@@ -238,15 +399,24 @@
       "badge": "Partner Oficial Certificado",
       "description": "Soy partner oficial certificado de Kommo, el CRM conversacional líder para equipos de ventas. Implemento, configuro e integro Kommo para que tu equipo centralice conversaciones, automatice seguimientos y cierre más oportunidades desde el primer día.",
       "benefits": [
-        { "title": "Implementación certificada", "description": "Configuración profesional avalada por Kommo, desde cero o sobre una cuenta existente." },
-        { "title": "Multicanal integrado", "description": "WhatsApp, Instagram, Telegram y más, en un único panel de ventas." },
-        { "title": "Automatización de ventas", "description": "Pipelines, bots y seguimientos automáticos para vender más sin esfuerzo extra." }
+        {
+          "title": "Implementación certificada",
+          "description": "Configuración profesional avalada por Kommo, desde cero o sobre una cuenta existente."
+        },
+        {
+          "title": "Multicanal integrado",
+          "description": "WhatsApp, Instagram, Telegram y más, en un único panel de ventas."
+        },
+        {
+          "title": "Automatización de ventas",
+          "description": "Pipelines, bots y seguimientos automáticos para vender más sin esfuerzo extra."
+        }
       ],
       "cta": "Consultar sobre Kommo"
     },
     "n8n": {
       "title": "Flujos con n8n",
-      "description": "Diseño e implemento automatizaciones visuales con n8n: conecto tu CRM, tienda, formularios, APIs y cualquier herramienta sin dependencias de plataformas cerradas. Código abierto, potente y en tu infraestructura.",
+      "description": "Diseño e implemento automatizaciones visuales con n8n: conecto tu CRM, tienda, formularios, APIs y cualquier herramienta sin dependencias de plataformas cerradas. Potente, flexible y alojable en tu propia infraestructura.",
       "cta": "Consultar automatizaciones"
     }
   },
@@ -259,39 +429,6 @@
     "messages": {
       "error": "Error de procesamiento",
       "tryAgain": "No se pudo abrir la pasarela de pagos. Inténtalo de nuevo."
-    }
-  },
-  "paymentResponse": {
-    "orderLabel": "Referencia",
-    "backHome": "Volver al inicio",
-    "emailNote": "Bold te enviará un correo con el resultado definitivo de la transacción.",
-    "unknown": {
-      "title": "Hemos recibido tu regreso",
-      "description": "No pudimos determinar el estado de tu pago desde esta página. Revisa el correo que te envía Bold con el resultado, o escríbeme si tienes dudas."
-    },
-    "approved": {
-      "title": "¡Gracias por tu pago!",
-      "description": "Tu pago fue aprobado."
-    },
-    "rejected": {
-      "title": "Pago rechazado",
-      "description": "Tu pago fue rechazado y no se realizó ningún cobro. Puedes volver a intentarlo con otro medio de pago."
-    },
-    "failed": {
-      "title": "El pago falló",
-      "description": "Ocurrió un error al procesar tu pago. Puedes volver a intentarlo o contactarme si el problema continúa."
-    },
-    "voided": {
-      "title": "Pago anulado",
-      "description": "La transacción fue anulada. Si crees que es un error, contáctame."
-    },
-    "processing": {
-      "title": "Pago en proceso",
-      "description": "Tu pago aún se está procesando. Recibirás el resultado por correo electrónico."
-    },
-    "pending": {
-      "title": "Pago pendiente",
-      "description": "Tu pago está pendiente de confirmación por parte de tu banco. Recibirás el resultado por correo electrónico."
     }
   },
   "contact": {
@@ -307,7 +444,7 @@
       "success": "Mensaje enviado",
       "thankYou": "Gracias por contactarme. Te responderé lo antes posible.",
       "acceptPolicies": "Acepto las políticas de tratamiento de datos.",
-      "seeMore": "Ver más",
+      "seeMore": "Leer la política de privacidad",
       "acceptPoliciesError": "Debes aceptar las políticas de tratamiento de datos para poder enviar el mensaje."
     },
     "info": {
@@ -387,7 +524,81 @@
     ]
   },
   "meta": {
-    "title": "Jolman Developer | Desarrollo Web Freelance Profesional en Bogotá, Barcelona y Melbourne",
-    "description": "Soy Jolman Developer, experto en crear soluciones web que impulsan tu negocio. Desarrollo web profesional y personalizado. ¡Contáctame hoy!"
+    "title": "Desarrollador web freelance en Colombia | Jolman Developer",
+    "description": "Webs a medida y en WordPress, tiendas online, apps y automatizaciones con Kommo CRM y n8n. Precios en USD y presupuesto gratuito y sin compromiso."
+  },
+  "servicesNav": {
+    "servicios": {
+      "name": "Servicios"
+    },
+    "tarifas": {
+      "name": "Tarifas"
+    },
+    "svcWeb": {
+      "name": "Páginas web",
+      "blurb": "Landing pages, webs con WordPress y rediseño o migración de webs existentes."
+    },
+    "svcTiendas": {
+      "name": "Tiendas online",
+      "blurb": "Tiendas con WooCommerce, Shopify o desarrolladas a medida: productos, pagos y envíos."
+    },
+    "svcMedida": {
+      "name": "Desarrollo a medida",
+      "blurb": "Webs a medida, paneles de administración, APIs y apps para iOS y Android."
+    },
+    "svcKommo": {
+      "name": "Kommo CRM",
+      "blurb": "Implementación de Kommo, canales de mensajería, automatizaciones e integraciones."
+    },
+    "svcAutomatizacion": {
+      "name": "Automatización e IA",
+      "blurb": "Automatizaciones con n8n y chatbots con inteligencia artificial."
+    },
+    "svcMantenimiento": {
+      "name": "Mantenimiento y hosting",
+      "blurb": "Mantenimiento mensual, soporte por horas, hosting en VPS y migraciones."
+    }
+  },
+  "servicesHome": {
+    "title": "Servicios",
+    "description": "Qué puedo hacer por tu proyecto, con precios de referencia. Cada servicio tiene su propia página con el detalle y las preguntas frecuentes.",
+    "viewService": "Ver detalles",
+    "viewAllServices": "Ver todos los servicios",
+    "viewTarifas": "Ver todas las tarifas",
+    "priceNote": "Precios orientativos en dólares (USD), sin IVA colombiano. Presupuesto gratuito y sin compromiso.",
+    "copNote": "El equivalente en pesos colombianos (COP) es aproximado, calculado con la TRM de {{date}} ({{rate}} COP por USD); el valor final se acuerda en el presupuesto."
+  },
+  "paymentResponse": {
+    "orderLabel": "Referencia",
+    "backHome": "Volver al inicio",
+    "emailNote": "Bold te enviará un correo con el resultado definitivo de la transacción.",
+    "unknown": {
+      "title": "Hemos recibido tu regreso",
+      "description": "No pudimos determinar el estado de tu pago desde esta página. Revisa el correo que te envía Bold con el resultado, o escríbeme si tienes dudas."
+    },
+    "approved": {
+      "title": "¡Gracias por tu pago!",
+      "description": "Tu pago fue aprobado."
+    },
+    "rejected": {
+      "title": "Pago rechazado",
+      "description": "Tu pago fue rechazado y no se realizó ningún cobro. Puedes volver a intentarlo con otro medio de pago."
+    },
+    "failed": {
+      "title": "El pago falló",
+      "description": "Ocurrió un error al procesar tu pago. Puedes volver a intentarlo o contactarme si el problema continúa."
+    },
+    "voided": {
+      "title": "Pago anulado",
+      "description": "La transacción fue anulada. Si crees que es un error, contáctame."
+    },
+    "processing": {
+      "title": "Pago en proceso",
+      "description": "Tu pago aún se está procesando. Recibirás el resultado por correo electrónico."
+    },
+    "pending": {
+      "title": "Pago pendiente",
+      "description": "Tu pago está pendiente de confirmación por parte de tu banco. Recibirás el resultado por correo electrónico."
+    }
   }
 }

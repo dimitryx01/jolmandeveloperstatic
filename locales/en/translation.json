@@ -5,12 +5,13 @@
     "projects": "Projects",
     "contact": "Contact",
     "changeTheme": "Toggle theme",
-    "menu": "Menu"
+    "menu": "Menu",
+    "services": "Services"
   },
   "hero": {
     "hello": "Hello, I'm",
-    "role": "Web Designer & Developer",
-    "description": "I create attractive and functional digital experiences with a minimalist and user-centered approach.",
+    "role": "Freelance web designer & developer",
+    "description": "I build custom and WordPress websites, online stores, apps and automations with Kommo CRM and n8n for individuals and businesses in Colombia and worldwide. Tell me about your project and I'll prepare a free, no-obligation quote.",
     "contactMe": "Contact me",
     "downloadCV": "Download CV",
     "learnMore": "Learn more",
@@ -67,7 +68,7 @@
     "project4": {
       "title": "Fundació Kālida – Spain",
       "description": "Development and maintenance of landing pages and the Agenda module for the Fundació Kālida website, including implementation of new features, component optimization, and production incident resolution.",
-      "fullDescription": "I collaborated on the development and maintenance of the Fundació Kālida website, working in a production environment oriented to high traffic and dynamic content. My tasks included creating and refactoring landing pages (campaigns, informational content, and online sections), ensuring correct semantic markup, solid performance, and consistency with the site’s global design. I also contributed to the evolution of the Agenda module, implementing functional and UI adjustments based on support tickets: bug fixing, minor behavior changes, improvements in the presentation of activities, and alignment with the communication team’s requirements. All of this following good maintainability practices, continuous review of changes, and a strong focus on user experience."
+      "fullDescription": "I collaborated on the development and maintenance of the Fundació Kālida website, working on a production environment oriented to high traffic and dynamic content. My tasks included creating and refactoring landing pages (campaigns, informational content, and online sections), ensuring correct semantic markup, solid performance, and consistency with the site’s global design. I also contributed to the evolution of the Agenda module, implementing functional and UI adjustments based on support tickets: bug fixing, minor behavior changes, improvements in the presentation of activities, and alignment with the communication team’s requirements. All of this following good maintainability practices, continuous review of changes, and a strong focus on user experience."
     },
     "project5": {
       "title": "Feel Hospitality Advisor – Spain",
@@ -103,7 +104,34 @@
       "title": "AI Automation + CRM - Induscom - Colombia",
       "description": "n8n automation flow with an AI agent (ChatGPT) that handles customer conversations, collects key data (such as engine numbers), and automatically classifies it in the Kommo CRM.",
       "fullDescription": "Automation project built for Induscom Colombia to streamline customer support and the logging of business information. An n8n flow was designed to connect the company's messaging channels with an AI agent based on ChatGPT, capable of automatically replying to customers, understanding their requests, and collecting business-relevant data (such as the engine number of the requested part, spare part type, and other technical details needed for follow-up). All of this information is automatically classified and logged in the Kommo CRM, organizing each conversation and its associated data within the corresponding sales pipeline. This allows Induscom's sales team to keep a structured history of every customer with no manual intervention, reducing response times and improving the productivity of the sales process."
-    }
+    },
+    "project12": {
+      "title": "Feel Accessibility - Spain",
+      "description": "Free WordPress plugin that adds an accessibility bar: each visitor adjusts text, contrast, reading and motion. Listed in the official WordPress.org directory.",
+      "fullDescription": "A free WordPress plugin that I developed for Feel Hospitality Advisory, a consultancy specialised in tourism accessibility. It adds an accessibility button in the bottom-right corner of the website (it also opens with Alt + Shift + A) and a preferences panel that lets each visitor adapt the site to the way they read and navigate: text (enlarge up to 150%, letter, word and line spacing, a readable or dyslexia-oriented typeface), colour and contrast (dark or light high contrast, grayscale), reading and content (highlight links and headings, reading guide, hide images, read aloud) and motion and navigation (pause animations and videos, large cursor, highly visible keyboard focus). It is available in Spanish, English, Catalan, Galician and Basque, follows the page’s language and works with Polylang. Preferences are stored only on the visitor’s device. As its own page states, it does not make a site accessible by itself or guarantee WCAG compliance: it is a complement to a well-built website, not a substitute. It has been tested with axe-core and automated browsers, not yet with screen readers on real devices. It is listed in the official WordPress.org directory."
+    },
+    "viewMore": "Show more projects",
+    "accessibilityTag": "Accessibility",
+    "categories": {
+      "custom": {
+        "title": "Platforms & custom development",
+        "description": "Platforms, admin panels and plugins built from scratch."
+      },
+      "automation": {
+        "title": "Automation & AI",
+        "description": "Workflows with n8n, AI agents and the Kommo CRM."
+      },
+      "corporate": {
+        "title": "Corporate websites & landing pages",
+        "description": "Websites for companies and organisations, mainly on WordPress."
+      },
+      "stores": {
+        "title": "Online stores",
+        "description": "Shopify online stores on which I collaborate as a developer within a team."
+      }
+    },
+    "automationTag": "Automation",
+    "aiTag": "AI / ChatGPT"
   },
   "contratacion": {
     "title": "Hiring",
@@ -150,42 +178,109 @@
           "emoji": "🌐",
           "title": "Websites",
           "items": [
-            { "name": "Landing page", "price": "From $200 USD", "description": "Single-section page focused on conversion: product presentation, lead generation or event promotion. Clean design, fast load and contact form included." },
-            { "name": "Website with CMS (WordPress, etc.)", "price": "From $380 USD", "description": "Template-based development adapted to your design. Includes SEO, cookies, cache and form plugins, content import, multi-language setup and all necessary adjustments." },
-            { "name": "Redesign or migration of existing website", "price": "From $320 USD", "description": "Visual or technical update of an existing site, or migration between platforms or servers while preserving content, SEO and features." },
-            { "name": "Online store with CMS (WooCommerce)", "price": "From $850 USD", "description": "Full setup of products, variations, discounts, payment gateways and shipping. Can include ERP or transport agency API integration." },
-            { "name": "Custom website", "price": "From $1,600 USD", "description": "Full freedom of design and features: portals, admin panels, intranets, etc. Usual stack: MERN, though I adapt. Multi-language at no extra cost. WCAG AA compatible." },
-            { "name": "Hybrid app for iOS and Android", "price": "From $2,500 USD", "description": "Built with React Native. Includes REST API and administration panel. Easy to maintain and compatible with all devices." }
+            {
+              "name": "Landing page",
+              "price": "From $200 USD",
+              "description": "Single-section page focused on conversion: product presentation, lead generation or event promotion. Clean design, fast load and contact form included."
+            },
+            {
+              "name": "Website with CMS (WordPress, etc.)",
+              "price": "From $380 USD",
+              "description": "Template-based development adapted to your design. Includes SEO, cookies, cache and form plugins, content import, multi-language setup and all necessary adjustments."
+            },
+            {
+              "name": "Redesign or migration of existing website",
+              "price": "From $320 USD",
+              "description": "Visual or technical update of an existing site, or migration between platforms or servers while preserving content, SEO and features."
+            },
+            {
+              "name": "Online store with CMS (WooCommerce)",
+              "price": "From $850 USD",
+              "description": "Full setup of products, variations, discounts, payment gateways and shipping. Can include POS, ERP or transport agency API integration."
+            },
+            {
+              "name": "Custom website",
+              "price": "From $1,600 USD",
+              "description": "Full freedom of design and features: portals, admin panels, intranets, etc. Usual stack: MERN, though I adapt. Multi-language at no extra cost. WCAG AA compatible."
+            },
+            {
+              "name": "Hybrid app for iOS and Android",
+              "price": "From $2,500 USD",
+              "description": "Built with React Native. Includes REST API and administration panel. Easy to maintain and compatible with all devices."
+            }
           ]
         },
         {
-          "emoji": "🛠️ ",
+          "emoji": "🛠️",
           "title": "Optimization & performance",
           "items": [
-            { "name": "Full web audit", "price": "From $100 USD", "description": "Technical analysis of speed, on-page SEO, security, accessibility and user experience. Delivery of a detailed report with prioritized recommendations." },
-            { "name": "Speed & Core Web Vitals optimization", "price": "From $130 USD", "description": "Improvement of Google performance indicators: LCP, FID, CLS. Image optimization, caching, minification and server configuration." },
-            { "name": "Code audit & refactoring", "price": "From $220 USD", "description": "Review of existing code to detect errors, vulnerabilities, technical debt or performance issues. Includes improvement proposal." }
+            {
+              "name": "Full web audit",
+              "price": "From $100 USD",
+              "description": "Technical analysis of speed, on-page SEO, security, accessibility and user experience. Delivery of a detailed report with prioritized recommendations."
+            },
+            {
+              "name": "Speed & Core Web Vitals optimization",
+              "price": "From $130 USD",
+              "description": "Improvement of Google performance indicators: LCP, INP, CLS. Image optimization, caching, minification and server configuration."
+            },
+            {
+              "name": "Code audit & refactoring",
+              "price": "From $220 USD",
+              "description": "Review of existing code to detect errors, vulnerabilities, technical debt or performance issues. Includes improvement proposal."
+            }
           ]
         },
         {
           "emoji": "📈",
-          "title": "SEO & analytics",
+          "title": "Analytics & tracking",
           "items": [
-            { "name": "Technical SEO", "price": "From $220 USD", "description": "Technical optimization for search engines: URL structure, metadata, schema markup, sitemap, robots.txt, speed and mobile compatibility." },
-            { "name": "Google Analytics & Tag Manager setup", "price": "From $80 USD", "description": "Installation and configuration of event tracking, conversions and goals. Includes data verification and a basic reporting dashboard." },
-            { "name": "Pixel & ad tracking integration", "price": "From $80 USD", "description": "Setup of Meta Ads, Google Ads or other platform pixels for campaign tracking and remarketing." }
+            {
+              "name": "Google Analytics & Tag Manager setup",
+              "price": "From $80 USD",
+              "description": "Installation and configuration of event tracking, conversions and goals. Includes data verification and a basic reporting dashboard."
+            },
+            {
+              "name": "Pixel & ad tracking integration",
+              "price": "From $80 USD",
+              "description": "Setup of Meta Ads, Google Ads or other platform pixels for campaign tracking and remarketing."
+            }
           ]
         },
         {
-          "emoji": "⚙️ ",
+          "emoji": "⚙️",
           "title": "Features & custom development",
           "items": [
-            { "name": "Advanced forms & email automation", "price": "From $100 USD", "description": "Complex form creation (multi-step, conditional, budget calculators) with automated responses, notifications and CRM integration." },
-            { "name": "Payment gateway integration", "price": "From $160 USD", "description": "Setup of Stripe, PayPal, MercadoPago, Bold, Wompi or other gateways on any type of website or application." },
-            { "name": "REST API development", "price": "From $450 USD", "description": "Design and implementation of APIs to connect services, mobile apps or management panels with your platform." },
-            { "name": "Custom admin panel", "price": "From $850 USD", "description": "Tailored dashboard to manage data, users, orders or any type of content without relying on generic solutions." },
-            { "name": "Chatbot & AI integration", "price": "From $450 USD", "description": "Implementation of virtual assistants or AI-powered chatbots for customer support, lead capture or automation of frequent queries." },
-            { "name": "Automations & system integrations", "price": "From $320 USD", "description": "Connecting tools and platforms via APIs, webhooks or tools like n8n or Make. Automating repetitive processes to save time." }
+            {
+              "name": "Advanced forms & email automation",
+              "price": "From $100 USD",
+              "description": "Complex form creation (multi-step, conditional, budget calculators) with automated responses, notifications and CRM integration."
+            },
+            {
+              "name": "Payment gateway integration",
+              "price": "From $160 USD",
+              "description": "Setup of Stripe, PayPal, Redsys or other gateways on any type of website or application."
+            },
+            {
+              "name": "REST API development",
+              "price": "From $450 USD",
+              "description": "Design and implementation of APIs to connect services, mobile apps or management panels with your platform."
+            },
+            {
+              "name": "Custom admin panel",
+              "price": "From $850 USD",
+              "description": "Tailored dashboard to manage data, users, orders or any type of content without relying on generic solutions."
+            },
+            {
+              "name": "Chatbot & AI integration",
+              "price": "From $450 USD",
+              "description": "Implementation of virtual assistants or AI-powered chatbots for customer support, lead capture or automation of frequent queries."
+            },
+            {
+              "name": "Automations & system integrations",
+              "price": "From $320 USD",
+              "description": "Connecting tools and platforms via APIs, webhooks or tools like n8n or Make. Automating repetitive processes to save time."
+            }
           ]
         },
         {
@@ -193,43 +288,109 @@
           "title": "Kommo CRM — Official Certified Partner",
           "description": "I am an official certified partner of Kommo, the leading conversational CRM for sales teams. I help businesses implement, configure and get the most out of their CRM from day one.",
           "items": [
-            { "name": "Kommo CRM implementation", "price": "From $280 USD", "description": "Full account setup: sales pipeline, stages, custom fields, users and permissions. Includes basic team training." },
-            { "name": "Messaging channel integration", "price": "From $160 USD", "description": "Connection of WhatsApp Business, Instagram, Facebook Messenger, Telegram or other channels directly in Kommo to centralize all conversations in one place." },
-            { "name": "Sales automation & follow-up", "price": "From $220 USD", "description": "Setup of robots and automatic triggers: welcome messages, scheduled follow-ups, automatic stage changes and team notifications based on customer behavior." },
-            { "name": "Kommo integration with external systems", "price": "From $320 USD", "description": "Connect Kommo with your website, online store, forms, payment gateways, ERP or other tools via API or webhooks. Data flows automatically without manual intervention." },
-            { "name": "Conversational chatbot in Kommo", "price": "From $450 USD", "description": "Design and implementation of a sales or customer support bot inside Kommo: automatic lead qualification, FAQ responses and routing to the right agent." },
-            { "name": "Audit & optimization of existing Kommo", "price": "From $130 USD", "description": "Review of an existing Kommo account to identify bottlenecks, misconfigured automations and improvement opportunities. Delivery of a report with recommendations." },
-            { "name": "Kommo training & consulting", "price": "$30 USD/hour", "description": "Training sessions for sales or customer support teams, Q&A and strategic advice on CRM usage." }
+            {
+              "name": "Kommo CRM implementation",
+              "price": "From $280 USD",
+              "description": "Full account setup: sales pipeline, stages, custom fields, users and permissions. Includes basic team training."
+            },
+            {
+              "name": "Messaging channel integration",
+              "price": "From $160 USD",
+              "description": "Connection of WhatsApp Business, Instagram, Facebook Messenger, Telegram or other channels directly in Kommo to centralize all conversations in one place."
+            },
+            {
+              "name": "Sales automation & follow-up",
+              "price": "From $220 USD",
+              "description": "Setup of robots and automatic triggers: welcome messages, scheduled follow-ups, automatic stage changes and team notifications based on customer behavior."
+            },
+            {
+              "name": "Kommo integration with external systems",
+              "price": "From $320 USD",
+              "description": "Connect Kommo with your website, online store, forms, payment gateways, ERP or other tools via API or webhooks. Data flows automatically without manual intervention."
+            },
+            {
+              "name": "Conversational chatbot in Kommo",
+              "price": "From $450 USD",
+              "description": "Design and implementation of a sales or customer support bot inside Kommo: automatic lead qualification, FAQ responses and routing to the right agent."
+            },
+            {
+              "name": "Audit & optimization of existing Kommo",
+              "price": "From $130 USD",
+              "description": "Review of an existing Kommo account to identify bottlenecks, misconfigured automations and improvement opportunities. Delivery of a report with recommendations."
+            },
+            {
+              "name": "Kommo training & consulting",
+              "price": "$30 USD/hour",
+              "description": "Training sessions for sales or customer support teams, Q&A and strategic advice on CRM usage."
+            }
           ]
         },
         {
-          "emoji": "☁️ ",
+          "emoji": "☁️",
           "title": "Infrastructure & hosting",
           "items": [
-            { "name": "Private VPS hosting + staging environment", "price": "From $45 USD/month", "description": "Deployment on a private VPS with NGINX, SSL, automatic backups and a staging environment to test changes before publishing. No shared resources." },
-            { "name": "Hosting migration", "price": "From $80 USD", "description": "Transfer of website, database and configurations to a new server with zero downtime and no data loss." },
-            { "name": "Server setup & basic DevOps", "price": "From $160 USD", "description": "Initial VPS setup: domain, SSL, web server, automatic deployment from GitHub and basic monitoring." }
+            {
+              "name": "Private VPS hosting + staging environment",
+              "price": "From $45 USD/month",
+              "description": "Deployment on a private VPS with NGINX, SSL, automatic backups and a staging environment to test changes before publishing. No shared resources."
+            },
+            {
+              "name": "Hosting migration",
+              "price": "From $80 USD",
+              "description": "Transfer of website, database and configurations to a new server with zero downtime and no data loss."
+            },
+            {
+              "name": "Server setup & basic DevOps",
+              "price": "From $160 USD",
+              "description": "Initial VPS setup: domain, SSL, web server, automatic deployment from GitHub and basic monitoring."
+            }
           ]
         },
         {
           "emoji": "🔄",
           "title": "Maintenance & support",
           "items": [
-            { "name": "Monthly maintenance & support", "price": "From $55 USD/month", "description": "CMS and plugin updates, backups, monitoring, minor content changes and priority technical support." },
-            { "name": "Hourly on-demand support", "price": "$20 USD/hour", "description": "For specific tasks, bug fixes, minor changes or technical queries without needing a maintenance contract." },
-            { "name": "Technology consulting", "price": "$30 USD/hour", "description": "Advice on architecture, technology selection, code review or project planning." }
+            {
+              "name": "Monthly maintenance & support",
+              "price": "From $55 USD/month",
+              "description": "CMS and plugin updates, backups, monitoring, minor content changes and priority technical support."
+            },
+            {
+              "name": "Hourly on-demand support",
+              "price": "$20 USD/hour",
+              "description": "For specific tasks, bug fixes, minor changes or technical queries without needing a maintenance contract."
+            },
+            {
+              "name": "Technology consulting",
+              "price": "$30 USD/hour",
+              "description": "Advice on architecture, technology selection, code review or project planning."
+            }
           ]
         }
       ],
       "aclaraciones": {
         "title": "Clarifications",
         "list": [
-          { "title": "Hosting:", "content": "Except for the private VPS service, hosting is the client's responsibility." },
-          { "title": "Custom quote:", "content": "Listed prices are indicative in USD. Each project is quoted individually based on its actual scope." },
-          { "title": "Other projects:", "content": "I have worked on AI developments, bots, IoT and highly diverse custom projects — if you have something in mind, just ask." }
+          {
+            "title": "Hosting:",
+            "content": "Except for the private VPS service, hosting is the client's responsibility."
+          },
+          {
+            "title": "VAT:",
+            "content": "All prices are in US dollars (USD) and do not include Colombian VAT."
+          },
+          {
+            "title": "Custom quote:",
+            "content": "Listed prices are indicative in USD. Each project is quoted individually based on its actual scope."
+          },
+          {
+            "title": "Other projects:",
+            "content": "I have worked on AI developments, bots, IoT and highly diverse custom projects — if you have something in mind, just ask."
+          }
         ]
       }
-    }
+    },
+    "viewAll": "See all pricing"
   },
   "partnersSection": {
     "title": "Automation & Integrations",
@@ -238,15 +399,24 @@
       "badge": "Official Certified Partner",
       "description": "I am an official certified partner of Kommo, the leading conversational CRM for sales teams. I implement, configure and integrate Kommo so your team can centralise conversations, automate follow-ups and close more deals from day one.",
       "benefits": [
-        { "title": "Certified implementation", "description": "Professional setup backed by Kommo, from scratch or on an existing account." },
-        { "title": "Multichannel integrated", "description": "WhatsApp, Instagram, Telegram and more, in a single sales panel." },
-        { "title": "Sales automation", "description": "Pipelines, bots and automatic follow-ups so your team sells more without extra effort." }
+        {
+          "title": "Certified implementation",
+          "description": "Professional setup backed by Kommo, from scratch or on an existing account."
+        },
+        {
+          "title": "Multichannel integrated",
+          "description": "WhatsApp, Instagram, Telegram and more, in a single sales panel."
+        },
+        {
+          "title": "Sales automation",
+          "description": "Pipelines, bots and automatic follow-ups so your team sells more without extra effort."
+        }
       ],
       "cta": "Ask about Kommo"
     },
     "n8n": {
       "title": "Flows with n8n",
-      "description": "I design and implement visual automations with n8n: connecting your CRM, store, forms, APIs and any tool without vendor lock-in. Open-source, powerful and on your own infrastructure.",
+      "description": "I design and implement visual automations with n8n: connecting your CRM, store, forms, APIs and any tool without vendor lock-in. Powerful, flexible and self-hostable on your own infrastructure.",
       "cta": "Ask about automations"
     }
   },
@@ -259,39 +429,6 @@
     "messages": {
       "error": "Processing error",
       "tryAgain": "The payment gateway could not be opened. Please try again."
-    }
-  },
-  "paymentResponse": {
-    "orderLabel": "Reference",
-    "backHome": "Back to home",
-    "emailNote": "Bold will email you the final result of the transaction.",
-    "unknown": {
-      "title": "We received your return",
-      "description": "We could not determine your payment status from this page. Check the email Bold sends you with the result, or contact me if you have any questions."
-    },
-    "approved": {
-      "title": "Thank you for your payment!",
-      "description": "Your payment was approved."
-    },
-    "rejected": {
-      "title": "Payment rejected",
-      "description": "Your payment was rejected and you have not been charged. You can try again with another payment method."
-    },
-    "failed": {
-      "title": "Payment failed",
-      "description": "An error occurred while processing your payment. You can try again or contact me if the problem continues."
-    },
-    "voided": {
-      "title": "Payment voided",
-      "description": "The transaction was voided. If you think this is a mistake, please contact me."
-    },
-    "processing": {
-      "title": "Payment processing",
-      "description": "Your payment is still being processed. You will receive the result by email."
-    },
-    "pending": {
-      "title": "Payment pending",
-      "description": "Your payment is pending confirmation from your bank. You will receive the result by email."
     }
   },
   "contact": {
@@ -307,7 +444,7 @@
       "success": "Message sent",
       "thankYou": "Thank you for contacting me. I will respond as soon as possible.",
       "acceptPolicies": "I accept the data processing policies.",
-      "seeMore": "See more",
+      "seeMore": "Read the privacy policy",
       "acceptPoliciesError": "You must accept the data processing policies to send the message."
     },
     "info": {
@@ -387,7 +524,81 @@
     ]
   },
   "meta": {
-    "title": "Jolman Developer | Professional Freelance Web Development in Bogotá, Barcelona and Melbourne",
-    "description": "I'm Jolman Developer, expert in creating web solutions that boost your business. Professional and customized web development. Contact me today!"
+    "title": "Freelance web developer in Colombia | Jolman Developer",
+    "description": "Custom and WordPress websites, online stores, apps and automation with Kommo CRM and n8n. Prices in USD and a free, no-obligation quote."
+  },
+  "servicesNav": {
+    "servicios": {
+      "name": "Services"
+    },
+    "tarifas": {
+      "name": "Pricing"
+    },
+    "svcWeb": {
+      "name": "Websites",
+      "blurb": "Landing pages, WordPress websites and redesign or migration of existing sites."
+    },
+    "svcTiendas": {
+      "name": "Online stores",
+      "blurb": "Stores built with WooCommerce, Shopify or developed from scratch: products, payments and shipping."
+    },
+    "svcMedida": {
+      "name": "Custom development",
+      "blurb": "Custom websites, admin panels, APIs and apps for iOS and Android."
+    },
+    "svcKommo": {
+      "name": "Kommo CRM",
+      "blurb": "Kommo implementation, messaging channels, automations and integrations."
+    },
+    "svcAutomatizacion": {
+      "name": "Automation & AI",
+      "blurb": "Automations with n8n and chatbots powered by artificial intelligence."
+    },
+    "svcMantenimiento": {
+      "name": "Maintenance & hosting",
+      "blurb": "Monthly maintenance, hourly support, VPS hosting and migrations."
+    }
+  },
+  "servicesHome": {
+    "title": "Services",
+    "description": "What I can do for your project, with reference prices. Each service has its own page with the details and frequently asked questions.",
+    "viewService": "See details",
+    "viewAllServices": "See all services",
+    "viewTarifas": "See all pricing",
+    "priceNote": "Indicative prices in US dollars (USD), Colombian VAT not included. Free, no-obligation quote.",
+    "copNote": "The equivalent in Colombian pesos (COP) is approximate, calculated with the official TRM of {{date}} ({{rate}} COP per USD); the final amount is agreed in the quote."
+  },
+  "paymentResponse": {
+    "orderLabel": "Reference",
+    "backHome": "Back to home",
+    "emailNote": "Bold will email you the final result of the transaction.",
+    "unknown": {
+      "title": "We received your return",
+      "description": "We could not determine your payment status from this page. Check the email Bold sends you with the result, or contact me if you have any questions."
+    },
+    "approved": {
+      "title": "Thank you for your payment!",
+      "description": "Your payment was approved."
+    },
+    "rejected": {
+      "title": "Payment rejected",
+      "description": "Your payment was rejected and you have not been charged. You can try again with another payment method."
+    },
+    "failed": {
+      "title": "Payment failed",
+      "description": "An error occurred while processing your payment. You can try again or contact me if the problem continues."
+    },
+    "voided": {
+      "title": "Payment voided",
+      "description": "The transaction was voided. If you think this is a mistake, please contact me."
+    },
+    "processing": {
+      "title": "Payment processing",
+      "description": "Your payment is still being processed. You will receive the result by email."
+    },
+    "pending": {
+      "title": "Payment pending",
+      "description": "Your payment is pending confirmation from your bank. You will receive the result by email."
+    }
   }
 }
