@@ -6,7 +6,8 @@
     "contact": "Contact",
     "changeTheme": "Toggle theme",
     "menu": "Menu",
-    "services": "Services"
+    "services": "Services",
+    "blog": "Blog"
   },
   "hero": {
     "hello": "Hello, I'm",
@@ -557,6 +558,9 @@
     "svcMantenimiento": {
       "name": "Maintenance & hosting",
       "blurb": "Monthly maintenance, hourly support, VPS hosting and migrations."
+    },
+    "blog": {
+      "name": "Blog"
     }
   },
   "servicesHome": {
